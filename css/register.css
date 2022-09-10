@@ -1,0 +1,153 @@
+/* HEAD */
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    background-color: #fefcfb;
+    
+}
+
+.nav{
+    width: 100%;
+    background-color: #084B83;
+    height: 100px;
+    box-shadow: 0 5px 10px 3px rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.logo {
+    width: 400px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li {
+    margin: 0px 40px;
+}
+
+.menu li a {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 600;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.menu li a:hover {
+    padding: 5px 10px;
+    background: rgb(255, 255, 255);
+    color: #084B83;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+/* FORMULARIO */
+
+.container-formulario{
+    overflow: auto;
+    background-color: #084B83;
+    color: rgb(255, 255, 255);
+    width: 555px;
+    height: 700px;
+    border-radius: 30px;
+    text-align:90px;
+    margin: 100px 100px 0 auto;
+   
+}
+
+.container-formulario a{
+
+    color: #ffffff;
+}
+.container-formulario h2{
+   text-align: center;
+   font-size: 35px;
+   font-weight: 700;
+}
+
+fieldset{
+    border: none;
+    margin: 0 0 0  30px;
+}
+form select{
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 3px; 
+}
+
+form label{
+    display: block;
+    font-size: 25px;
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+
+form input {
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 3px;
+}
+
+button {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .2s ease;
+
+}
+.check{
+    font-size: 22px;
+    display: inline-block;
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+ 
+}
+
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+    color: #084B83;
+}
+img{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    width: 900px;
+    height: 600px;
+    border-radius: 40px;
+
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Slider -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <title>Fundacion P.S</title>
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="/css/index.css">
+
+<!-- Script Icons FontAwesome -->
+<script src="https://kit.fontawesome.com/139d37edbf.js" crossorigin="anonymous"></script>
+
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!-- Icon -->
+  <link rel="icon" href="/FundacionPS-main/assets/img/icon.png">
+</head>
+
+<body>
+  <header>
+    <nav class="nav">
+      <a href="index.html"><img src="/assets/img/logo-fundacion-blanco.png" class="logo" alt=""></a>
+      <ul class="menu">
+        <li><a href="/html/Educacion.html">Educación</a></li>
+        <li><a href="/html/vivienda.html">Vivienda</a></li>
+        <li><a href="/html/consultoria.html">Consultoria</a></li>
+        <li><a href="/html/about_us.html">Sobre nosotros</a></li>
+        <li><a href="/html/contactenos.html">Contactenos</a></li>
+      </ul>
+    </nav>
+    <div class="info-box">
+      <p>"Construimos sueños <br> donde todos ganamos"</p>
+      <nav class="buttons-box">
+        <a class="btn" href="/html/register.html">Registrate</a>
+        <a class="btn" href="/html/Sesion.html">Iniciar Sesión</a>
+        <a class="btn" href="/html/Donaciones.html">Donaciones</a>
+      </nav>
+    </div>
+    <div>
+      
+    </div>
+  </header>
+  <main>
+    <div class="audio-container">
+      <audio controls>
+        <source src="/assets/audios/historia.mpeg">
+      </audio>
+    </div>
+    <!-- Slider -->
+    <div class="slider-container">
+      <div class="slider">
+        <div>
+          <img src="/assets/img/img3.jpeg" alt="">
+        </div>
+        <div>+
+          <img src="/assets/img/img4.jpeg" alt="">
+        </div>
+        <div>
+          <img src="/assets/img/img5.jpeg" alt="">
+        </div>
+        <div>
+          <img src="/assets/img/img6.jpeg" alt="">
+        </div>
+      </div>
+    </div>    
+  </main>
+  <div class="footer">
+    <p>Contactanos</p>
+  <div class="redes">
+   <a href="https://www.facebook.com/fundacionsocialfps/"> <i class="fa-brands fa-facebook"></i></a>
+   <a href="https://twitter.com/fundacionps1?t=exL93JRR_w1fZgWaeZFNXg&s=09"> <i class="fa-brands fa-twitter"></i></a>
+   <a href="https://www.youtube.com/channel/UCN64xxubpotGgIhXXY1wYUg"> <i class="fa-brands fa-youtube"></i></a>
+   <a href="https://www.instagram.com/emprendedoresfps/"> <i class="fa-brands fa-instagram"></i></a>
+   <a href="https://wa.link/07q7ck"> <i class="fa-brands fa-whatsapp"></i></a>
+  </div>                                      
+  </div>
+  <!-- Script Slider -->
+  <script>
+    $(document).ready(function () {
+      $('.slider').bxSlider({
+        pager: false,
+        auto: true,
+        stopAutoOnClick: true,
+        minSlides: 2,
+        maxSlides: 2,
+        slideWidth: 2000,
+        slideMargin: 10
+      });
+    });screen
+  </script>
+  <!-- script Header -->
+  <script src="/js/header.js"></script>
+</body>
+
+</html>

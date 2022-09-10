@@ -1,0 +1,25 @@
+<html lang="en">
+<head bacgrround:url(fondo.jpg)>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head> 
+<div class="conte">
+<body> <h1>image.png</h1> 
+  <p> bienvenido ala secion<p>
+ backgronund-size:cover 
+  <tetle> es una paguina web</tetle>
+  <link rel="stylesheet"href="/ruta de archivo html.html">
+  <li><a href="#">inicio</a></li>
+  <li><a href="#">
+  <li><a href="#">
+
+</body>  
+</html>   
+  <setion {;} >
+    <conte> {text-align:center;}
+<meta name="feywoords">
+  <header>
+    <meta neme="descrition"content="feywoords"
+  

@@ -1,0 +1,123 @@
+/* HEAD */
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    background-color: #fefcfb;
+}
+
+.nav{
+    position: relative;
+    width: 100%;
+    background-color: #084B83;
+    height: 100px;
+    box-shadow: 0 5px 10px 3px rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.logo {
+    width: 400px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li {
+    margin: 0px 40px;
+}
+
+.menu li a {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.menu li a:hover {
+    padding: 5px 10px;
+    background: #fff;
+    color: #084B83;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+/* FORMULARIO */
+
+.container{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    /* height: 700px; */
+    background: #084B83;
+    padding: 30px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  
+}
+.container h4{
+    text-align: center;
+}
+
+
+.input {
+    width: 100%;
+    background: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+
+.container a{
+
+    color: #fff;
+}
+
+.button {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+.button:hover {
+    background-color: #fff;
+    color: #084B83;
+}
+
+
+
