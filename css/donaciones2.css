@@ -7,15 +7,15 @@
 
 
 body{
-    margin: 0;
-    min-height: 100vh;
+    
     background-image: 
     url(/assets/img/donaciones2.png);
+     background-repeat: no-repeat; 
     background-size: cover;
+    overflow: hidden;
 }
 
 .nav{
-
     width: 100%;
     background-color: #084B83;
     height: 100px;
@@ -101,11 +101,30 @@ input{
    
 }
 h1{
-transform: translate(1550px);
-color: #fff;
+transform: translate(10px,150px);
+font-size: 150px;
+color: #fff;   
+}
+button:hover {
+    background-color: rgb(255, 255, 255);
+    color: #084B83;
+}
+button{
+width: 105px;
+position: absolute;
+top: 740px;
+right: 270px;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .2s ease;
 
 
-    
 }
 
 

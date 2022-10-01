@@ -30,11 +30,13 @@
       </ul>
     </nav>
   </header>
+  <form>
   <h1>Donaciones</h1>
   <div class="contenido">
     <div class="con">
       <div class="contenido1">
-    <select class="bton" name="Tipo de documentos" id="color">
+       
+    <select required class="bton" name="Tipo de documentos" id="color">
         <option value="C">Tipo de documento</option>
         <option value="C">Cedula de ciudadania</option>
         <option value="TI">Tarjeta de identidad</option>
@@ -44,31 +46,34 @@
       </select>
    
     
-      <input type="text" placeholder="N documento">
+      <input required type="text" placeholder="N documento">
     </div>
   <div class="contenido1">
-      <input type="text" placeholder="Nombres">
-      <input type="text" placeholder="Apellidos">
+      <input required type="text" placeholder="Nombres">
+      <input required type="text" placeholder="Apellidos">
  </div>
  <div class="contenido1">
-      <input type="email" placeholder="Correo">
-      <input type="text" placeholder="Telefono celular">
+      <input required type="email" placeholder="Correo">
+      <input required type="text" placeholder="Numero de tarjeta">
     </div>
 <div class="contenido1">
-      <select class="bton" name="Tipo de tarjeta" id="">
+      <select required class="bton" name="Tipo de tarjeta" id="">
         <option value="TJ">Tipo de tarjeta</option>
         <option value="C">Tarjeta de credito</option>
         <option value="D">Tarjeta de debito</option>
       </select>
-              <input type="text" placeholder="Nombre titular ">
+              <input required type="text" placeholder="Nombre titular ">
  </div>
 <div class="contenido1">
-        <input type="text" placeholder="Fecha de caducidad">
-        <input type="number" placeholder="Codigo de seguridad">
+        <input required type="text" placeholder="Fecha de caducidad">
+        <input required type="number" placeholder="Codigo de seguridad">
       </div>
+   
   </div>
-</div>
+  </div>
 
+
+<button type="submit">Enviar</button>
+</form>
 </body>
-
 </html>

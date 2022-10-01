@@ -19,16 +19,16 @@
 </head>
 <body>
   <header>
-    <nav class="nav">
-      <a href="/index.html"><img src="/assets/img/logo-fundacion-blanco.png" class="logo" alt=""></a>
-      <ul class="menu">
-        <li><a href="/html/Educacion.html">Educación</a></li>
-        <li><a href="/html/vivienda.html">Vivienda</a></li>
-        <li><a href="/html/consultoria.html">Consultoria</a></li>
-        <li><a href="/html/about_us.html">Sobre nosotros</a></li>
-        <li><a href="/html/contactenos.html">Contactenos</a></li>
-      </ul>
-    </nav>
+	<nav class="nav">
+		<a href="/index.html"><img src="/assets/img/logo-fundacion-blanco.png" class="logo" alt=""></a>
+		<ul class="menu">
+		  <li><a href="/html/Educacion.html">Educación</a></li>
+		  <li><a href="/html/vivienda.html">Vivienda</a></li>
+		  <li><a href="/html/consultoria.html">Consultoria</a></li>
+		  <li><a href="/html/about_us.html">Sobre nosotros</a></li>
+		  <li><a href="/html/contactenos.html">Contactenos</a></li>
+		</ul>
+	  </nav>
   </header>
 	<div class="container-formulario">
 		<h2>
@@ -38,29 +38,29 @@
 		<form>
 			<fieldset>
 				<label>Nombres: </label>
-				<input type="text" name="Nombres" />
+				<input required type="text" name="Nombres" />
 			</fieldset>
 			<fieldset>
 				<label>Apellidos: </label>
-				<input type="text" name="Apellidos">
+				<input required type="text" name="Apellidos">
 			</fieldset>
 			<fieldset>
 				<label>Fecha De Nacimiento: </label>
-				<input type="date" name="Fecha De Nacimiento">
+				<input required type="date" name="Fecha De Nacimiento">
 			</fieldset>
 			<fieldset>
 				<label>Direccion: </label>
-				<input type="text" name="Direccion:">
+				<input required type="text" name="Direccion:">
 				
 			</fieldset>
 			<fieldset>
 				<label> Telefono: </label>
-				<input type="text" name="Telefono:">
+				<input required type="text" name="Telefono:">
 				  
 			</fieldset>
 			<fieldset>
-				<label for="Estado">Estado Civil:</label>
-				<select id="Estado" name="Estado">
+				<label  for="Estado">Estado Civil:</label>
+				<select required id="Estado" name="Estado">
 					<option value="Opciones">Opciones</option>
 					<option value="Casad@">Casad@</option>
 					<option value="Solter@">Solter@</option>
@@ -70,7 +70,7 @@
 			</fieldset>
 			<fieldset>
 			<label for="Documento">Tipo de documento: </label>
-			<select id="Documento" name="TIPO DE DOCUMENTO">
+			<select required id="Documento" name="TIPO DE DOCUMENTO">
 				<option value="Opciones">Opciones</option>
 				<option value="T-Tarjeta de identidad">T-Tarjeta de identidad</option>
 				<option value="C-Cedula de ciudadania">C-Cedula de ciudadania</option>
@@ -81,23 +81,23 @@
 			</fieldset>
 		    <fieldset> 
 			<label>Numero de documento: </label>
-			<input type="text" name="NUMERO DE DOCUMENTO">
+			<input required type="text" name="NUMERO DE DOCUMENTO">
 		    </fieldset> 
 	        <fieldset> 
 			<label>Correo Electronico: </label>
-			<input type="text" name="CORREO">
+			<input required type="email" name="CORREO">
 	        </fieldset>
 		    <fieldset>	
 			<label>Usuario: </label>
-			<input type="text" name="USUARIO:">
+			<input required type="text" name="USUARIO:">
 		    </fieldset>
 		    <fieldset>
 			<label> Contraseña: </label>
-			<input type="password" name="CONTRASEÑA:">
+			<input required type="password" name="CONTRASEÑA:">
 		    </fieldset>
 		    <fieldset>
 			<label> Confirmar Contraseña: </label>
-			<input type="password" name="CONFIRMAR CONTRASEÑA:">
+			<input required type="password" name="CONFIRMAR CONTRASEÑA:">
 		    </fieldset>
 			<fieldset>
 				<label></label>
@@ -112,9 +112,6 @@
 
 	</div>
 </body>
-<div class="img">
-	<img src="/assets/img/registro 1.png" alt="registro">
 
-</div>
 
 </html>
